@@ -19,4 +19,3 @@ function iLoveTheBeatles(n) {
   do { beattle = "I love the Beatles!"}
   while (iLoveTheBeatles(7) > 15)
   }
-
