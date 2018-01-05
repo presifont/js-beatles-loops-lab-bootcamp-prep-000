@@ -17,9 +17,9 @@ return newFacts
 function iLoveTheBeatles(n) {
   var beattle = [];
   do { beattle.push("I love the Beatles!")
-beatle++
+n++
 }
   while (n < 15);
-  return beattle
+  return beattle;
 
   }
