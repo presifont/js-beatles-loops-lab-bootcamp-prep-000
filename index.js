@@ -1,7 +1,6 @@
-function theBeatlesPlay(musicians, instruments) {
-  var allPlayers = []; //creates an empty arrya called allPlayers
-  for (var i=0; i < musicians.length; i++) {
-    allPlayers.push(musicians[i] + " plays " instruments[i]);
-  }
-  return allPlayers;
-}
+function theBeatlesPlay(players, instruments) {
+    var allPlayers = [];
+    for (var i=0; i < players.length; i++) {
+       allPlayers.push(players[i] + " plays " + instruments[i]);
+    }
+    return allPlayers;
