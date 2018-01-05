@@ -18,5 +18,7 @@ function iLoveTheBeatles(n) {
   var beattle = [];
   do { beattle = "I love the Beatles!"}
   while (iLoveTheBeatles(n) < 15)
+  return beattle
+
   }
-return beattle
+
